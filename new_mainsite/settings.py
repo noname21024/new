@@ -80,7 +80,7 @@ TEMPLATES = [
     },
 ]
 
-# WSGI_APPLICATION = 'new_mainsite.wsgi.application'
+WSGI_APPLICATION = 'new_mainsite.wsgi.application'
 
 
 # Database
