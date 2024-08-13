@@ -1,0 +1,149 @@
+[
+    {
+        "Action": "Thể loai này thường có nội dung về hành động, diễn biến nhanh."
+    },
+    {
+        "Adventure": "Thể loại phiêu lưu, mạo hiểm, thường là hành trình của các nhân vật."
+    },
+    {
+        "Comedy": "Thể loại có nội dung trong sáng và cảm động, thường có tình tiết gây cười, xung đột nhẹ nhàng."
+    },
+    {
+        "Comic": "Truyện tranh Châu Âu và Châu Mĩ."
+    },
+    {
+        "Doujinshi": "Thể loại truyện được phóng tác do fan hay có thể cả những Mangaka khác với tác giả truyện gốc. Tác giả vẽ Doujinshi thường dựa trên những nhân vật gốc để viết ra những câu chuyện theo sở thích của mình."
+    },
+    {
+        "Drama": "Thể loại mang đến cho người xem những cảm xúc khác nhau: buồn bã, căng thẳng thậm chí là bi phẫn"
+    },
+    {
+        "Ecchi": "Thường có những tình huống nhạy cảm nhẹ nhàng nhằm lôi cuốn người xem"
+    },
+    {
+        "Event BT": "Các truyện trong đây là các truyện tham gia event dịch truyện trả lương do Blogtruyen.com phát động, nhằm quảng bá blogtruyen đến đông độc giả hơn, hỗ trợ chi phí cho nhóm dịch, và giúp độc giả có nhiều đầu truyện hay với tần suất update rất mạnh (do các nhóm có kinh phí hoạt động)"
+    },
+    {
+        "Fantasy": "Thể loại xuất phát từ trí tưởng tượng phong phú, từ pháp thuật đến thế giới trong mơ thậm chí là những câu chuyện thần tiên"
+    },
+    {
+        "Full màu": "Là những truyện mà tất cả các trang đều được tô màu đầy đủ. Là những truyện được thực hiện ngay từ đầu đã có màu, hoặc có một số truyện không màu được fan tô để khiến tác phẩm mà họ yêu mến trở nên sinh động hơn"
+    },
+    {
+        "Game": "Gồm những truyện có nội dung nói về game, hoặc lấy bối cảnh là game, hoặc nhân vật chính là nhân vật trong các game nổi tiếng, \nHoặc có cốt truyện về nhân vật chính lạc vào một thế giới có hệ thống phân cấp độ, chia class, đánh quái vật lượm đồ, nâng cấp skill ...."
+    },
+    {
+        "Harem": "Thể loại truyền tình cảm, lãng mạn mà trong đó nhiều nhân vật nữ thích một nam nhân vật chính."
+    },
+    {
+        "Historical": "Thể loại có liên quan đến thời xa xưa."
+    },
+    {
+        "Horror": "Truyện có yếu tố rùng rợn"
+    },
+    {
+        "Isekai/Dị giới/Trọng sinh": "Truyện có nhân vật chính đi từ thế giới này qua thế giới khác (thế giới fantasy, thế giới cổ đại, thế giới game ...)\nNguyên nhân thường do bị triệu hồi, do chết rồi được hồi sinh, do lỗ hổng không gian ...."
+    },
+    {
+        "Josei": "Là một thể loại của manga hay anime được sáng tác chủ yếu bởi phụ nữ cho  những độc giả nữ từ 18 đến 30. Josei manga có thể miêu tả những lãng mạn thực tế , nhưng trái ngược với  hầu hết các kiểu lãng mạn lí tưởng của Shoujo manga với cốt truyện rõ ràng, chín chắn."
+    },
+    {
+        "Live action": "Truyện đã được chuyển thể thành phim."
+    },
+    {
+        "Magic": "la the loai lien quan den phep thuat nhu la suc manh sieu nhien hay gay phep va vong tron ma thuat"
+    },
+    {
+        "manga": "các bộ truyện tranh Nhật bản"
+    },
+    {
+        "Manhua": "Truyện tranh Trung Quốc."
+    },
+    {
+        "Manhwa": "Truyện tranh Hàn Quốc, đọc từ trái sang phải."
+    },
+    {
+        "Martial Arts": "Giống với tên gọi, bất cứ gì liên quan đến võ thuật trong truyện từ các trận đánh nhau, tự vệ đến các môn võ thuật như akido, karate, judo hay  taekwondo, kendo, các cách né tránh."
+    },
+    {
+        "Mecha": "Mecha, còn được biết đến dưới cái tên meka hay mechs,  là thể loại nói tới những cỗ máy biết đi (thường là do phi công cầm  lái)."
+    },
+    {
+        "Mystery": "Thể loại thường xuất hiện những điều bí ấn không thể lí giải được và sau đó là những nỗ lực của nhân vật chính nhằm tìm ra câu trả lời thỏa đáng."
+    },
+    {
+        "Nấu Ăn": "Nội dung về đầu bếp, các món ăn"
+    },
+    {
+        "Ngôn Tình": "Là những truyện có đề tài chủ chốt là tình yêu, thường có các nhân vật rất hoàn hảo (đã là công tử đẹp trai nhà giàu học giỏi mà lại còn đánh đấm cực giỏi kiến thức siêu phàm ...)\n đem lại sự thỏa mãn cho những người thích tâm hồn bay bổng"
+    },
+    {
+        "NTR": "NTR (Netorare) là những truyện có nội dung nói về một cô gái nào đó mà nam chính yêu say đắm, nhưng cô ấy bị những nhân vật phụ hoặc phản diện chiếm đoạt."
+    },
+    {
+        "One shot": "Những truyện ngắn, thường là 1 chapter."
+    },
+    {
+        "Psychological": "Thể loại liên quan đến những vấn đề về tâm lý của nhân vật ( tâm thần bất ổn, điên cuồng ...)"
+    },
+    {
+        "Romance": "Thường là những câu chuyện về tình yêu. Ớ đây chúng ta sẽ lấy ví dụ như  tình yêu giữa một người con trai và con gái, bên cạnh đó đặc điểm  thể  loại này là kích thích trí tưởng tượng của bạn về tình yêu."
+    },
+    {
+        "School Life": "Trong thể loại này, ngữ cảnh diễn biến câu chuyện chủ yếu ở trường học."
+    },
+    {
+        "Sci-fi": "Bao gồm những chuyện khoa học viễn tưởng, đa phần chúng xoay quanh nhiều  hiện tượng mà liên quan tới khoa học, công nghệ, tuy vậy thường thì  những câu chuyện đó không gắn bó chặt chẽ với các thành tựu khoa học  hiện thời, mà là do con người tưởng tượng ra."
+    },
+    {
+        "Seinen": "Là một thể loại của manga thường nhằm vào những đối tượng nam 18 đến 30  tuổi, nhưng người xem có thể lớn tuổi hơn, với một vài bộ truyện nhắm  đến các doanh nhân nam quá 40. Thể loại này có nhiều phong cách riêng  biệt , nhưng thể loại này có những nét riêng biệt, thường được phân vào  những phong cách nghệ thuật rộng hơn và phong phú hơn về chủ đề, có các  loại từ mới mẻ tiên tiến đến khiêu dâm."
+    },
+    {
+        "Shoujo": "Đối tượng hướng tới của thể loại này là phái nữ. Nội dung của những bộ  manga này thường liên quan đến tình cảm lãng mạn, chú trọng đầu tư cho  nhân vật (tính cách,...)."
+    },
+    {
+        "Shounen": "Đối tượng hướng tới của thể loại này là phái nam. Nội dung của những bộ  manga này thường liên quan đến đánh nhau và/hoặc bạo lực (ở mức bình  thường, không thái quá)."
+    },
+    {
+        "Shounen Ai": "Là một thể loại của anime hoặc manga có nội dung về tình yêu giữa những  chàng trai trẻ, mang tính chất lãng mạn nhưng ko đề  cập đến quan hệ tình dục."
+    },
+    {
+        "Slice of life": "Nói về cuộc sống đời thường."
+    },
+    {
+        "Smut": "thể loại smut"
+    },
+    {
+        "Sports": "Đúng như tên gọi, những môn thể thao như bóng đá, bóng chày, bóng chuyền, đua xe, cầu lông,... là một phần của thể loại này."
+    },
+    {
+        "Supernatural": "Thể hiện những sức mạnh đáng kinh ngạc và không thể giải thích được,  chúng thường đi kèm với những sự kiện trái ngược hoặc thách thức với những  định luật vật lý."
+    },
+    {
+        "Tạp chí truyện tranh": "Tạp chí online về manga anime v.v..."
+    },
+    {
+        "Tragedy": "Thể loại chứa đựng những sự kiện mà dẫn đến kết cục là những mất mát hay sự rủi  ro to lớn."
+    },
+    {
+        "Trinh Thám": "Các truyện có nội dung về các vụ án, các thám tử cảnh sát điều tra ..."
+    },
+    {
+        "Truyện scan": "Các truyện được scan lên."
+    },
+    {
+        "Tu chân - tu tiên": "Thể loaị mà con ngươì có thể liên tục tu luyện để đạt được những thứ nghịch thiên (trái với quy luật tự nhiên) như : kéo dài tuổi thọ thậm chí bất tử, nắm giữ sức mạnh khủng khiếp, đi tìm đại đạo thoát ky nhân gian trở thành tiên ...."
+    },
+    {
+        "Video Clip": ""
+    },
+    {
+        "VnComic": "Truyện tranh Việt Nam!"
+    },
+    {
+        "Webtoon": "Là thể loại do hàn quốc khởi xướng, hầu hết webtoon đều full màu,  thể loại này có trang truyện bố cục khung hình theo chiều dọc, vì vậy xem trên máy vi tính, điện thoại, máy tính bảng ... đem lại cảm giác cực kỳ thoải mái"
+    },
+    {
+        "Truyện full": "Những truyện đã hoàn thành"
+    }
+]
