@@ -4,6 +4,7 @@ from django.core.files import File
 from urllib import request
 import os
 from django.contrib.auth.models import User
+from django.utils import timezone
 
 class Tags(models.Model):
     name = models.CharField(max_length = 200)
@@ -25,6 +26,10 @@ class Mangas(models.Model):
     tags = models.ManyToManyField(Tags)
     objects = AllManyToManyQuerySet.as_manager()
     all_views = models.IntegerField(default = 0)
+    published_date = models.DateTimeField(auto_now_add=True, blank=True, null=True)
+    created_date = models.DateTimeField(default=timezone.now)
+    updated = models.DateTimeField(default=timezone.now)
+
 
     def get_remote_image(self):
         if self.image:
@@ -34,17 +39,36 @@ class Mangas(models.Model):
                     File(open(result[0], 'rb'))
                     )
             self.save()
+    def publish(self):
+        self.published_date = timezone.now()
+        self.save()
+
     
     def __str__(self):
         return self.name
+
+    class Meta:
+        ordering = ['-created_date', '-updated']
     
 class Chapters(models.Model):
     manga = models.ForeignKey(Mangas, on_delete = models.CASCADE, related_name = 'chapters')
     chaptername = models.CharField(max_length = 2000)
     views = models.IntegerField(default = 0)
+    published_date = models.DateTimeField(auto_now_add=True, blank=True, null=True)
+    created_date = models.DateTimeField(default=timezone.now)
+    updated = models.DateTimeField(auto_now = True)
+
+
+    def publish(self):
+        self.published_date = timezone.now()
+        self.save()
 
     def __str__(self):
         return self.chaptername
+    
+    class Meta:
+        ordering = ['created_date']
+    
 
 
 class Images(models.Model):

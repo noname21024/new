@@ -21,14 +21,14 @@
     </div>
     <div class="manga-container">
         <p class = "hot-manga-title">
-            <i class='fas fa-fire-alt' style='font-size:24px'></i> Như như con điên
+            <i class='fas fa-fire-alt' style='font-size:24px'></i> Truyện đang hot
         </p>
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
             {% for manga_top in top_mangas|slice:":10" %}
             <div class="swiper-slide">
                 <a href="{% url 'room' manga_top.name %}">
-                    <img src="{{manga_top.image}}" alt="">
+                    <img src="{{manga_top.image}}" alt="" width="300px" height="300px" style="object-fit: cover;">
                 </a>
                 <a href="{% url 'manga-content'  manga_top.name manga_top.chapters.first.id %}" class = "position-absolute bottom-0 start-50 translate-middle-x btn btn-primary" role="button" style = "font-size: 14px; margin-bottom: 10px" >
                     {% with manga_top.chapters.first.chaptername|split:manga_top.name as chaps %}
@@ -52,7 +52,7 @@
             {% for manga in page.object_list %}
             <div class="manga-card">
                 <a href="{% url 'room' manga.name %}">
-                    <img src ="{{manga.image}}" alt="">
+                    <img src ="{{manga.image}}" alt="" width="300px" height = "350px" style="object-fit: cover;">
                 </a>
                 <h5 class = "name_of_manga" style="margin-top: 15px;
                 display: flex;
