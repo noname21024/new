@@ -36,46 +36,46 @@ def home(request):
     # logic ở đay là tạo luôn cả chapter
 
 
-    data = get_json_file()
+    # data = get_json_file()
 
-    for item in data:
-        try:
-            for tag in item['tags']:
-                Tags.objects.get_or_create(name = tag)
-        except:
-            pass
+    # for item in data:
+    #     try:
+    #         for tag in item['tags']:
+    #             Tags.objects.get_or_create(name = tag)
+    #     except:
+    #         pass
         
-        if Mangas.objects.filter(name = item['name']):
-            current_manga = Mangas.objects.get(name = item['name'])
-            if current_manga.name == item['name']:
-                try:
-                    for tag in item['tags']:
-                        category = Tags.objects.get(name = tag)
-                        current_manga.tags.add(category)
-                except:
-                    pass
-                try:
-                    for chapter in item['chapter']:
-                        name, value = get_chapter(chapter)
-                        current_chapter = Chapters.objects.filter(manga = current_manga, chaptername = name)
-                        if current_chapter:
-                            name_of_chapter = get_images(current_chapter)
-                            get_chap = Chapters.objects.get(manga = current_manga, chaptername = name_of_chapter)
-                            try:
-                                for img in value:
-                                        image = Images.objects.get_or_create(manga = current_manga, chapters = get_chap, image = img)
-                                        if image[0].image == value[-1]:
-                                            break
-                            except:
-                                pass
-                        else:
-                            Chapters.objects.create(manga = current_manga, chaptername = name)
-                except:
-                    pass
-            else:
-                pass
-        else:
-            Mangas.objects.create(name = item['name'], description = "Chưa có descriptions cho bộ truyện này", image = item['image'])
+    #     if Mangas.objects.filter(name = item['name']):
+    #         current_manga = Mangas.objects.get(name = item['name'])
+    #         if current_manga.name == item['name']:
+    #             try:
+    #                 for tag in item['tags']:
+    #                     category = Tags.objects.get(name = tag)
+    #                     current_manga.tags.add(category)
+    #             except:
+    #                 pass
+    #             try:
+    #                 for chapter in item['chapter']:
+    #                     name, value = get_chapter(chapter)
+    #                     current_chapter = Chapters.objects.filter(manga = current_manga, chaptername = name)
+    #                     if current_chapter:
+    #                         name_of_chapter = get_images(current_chapter)
+    #                         get_chap = Chapters.objects.get(manga = current_manga, chaptername = name_of_chapter)
+    #                         try:
+    #                             for img in value:
+    #                                     image = Images.objects.get_or_create(manga = current_manga, chapters = get_chap, image = img)
+    #                                     if image[0].image == value[-1]:
+    #                                         break
+    #                         except:
+    #                             pass
+    #                     else:
+    #                         Chapters.objects.create(manga = current_manga, chaptername = name)
+    #             except:
+    #                 pass
+    #         else:
+    #             pass
+    #     else:
+    #         Mangas.objects.create(name = item['name'], description = "Chưa có descriptions cho bộ truyện này", image = item['image'])
        
         # delete manga
 
