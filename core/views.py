@@ -21,7 +21,7 @@ def get_json_file():
     #  page 11 12 16 
     # đã load trang 20 từ trang 11 
 
-    with open(f'Kichiku eiyuu.json', 'r', encoding='utf-8') as f:
+    with open(f'Sakamoto Days.json', 'r', encoding='utf-8') as f:
         for data in json.load(f):
             if data['name'] != None:
                 list.append(data)

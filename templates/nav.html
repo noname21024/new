@@ -66,9 +66,11 @@
             </ul>
           </li>
           {% endif %}
+          {% if request.user.is_authenticated %}
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="{% url 'history_view' %}"><i class="fas fa-history"></i> Lịch sử</a>
           </li>
+          {% endif %}
         </ul>
         <form class="d-flex" role="search" action = "{% url 'manga-search-result' %}" method = 'GET' style="position: relative;">
           {% csrf_token %}
